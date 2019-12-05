@@ -3,7 +3,7 @@ App({
   onLaunch: function () {
     
     if (!wx.cloud) {
-      console.error('请使用')
+      console.error('请')
     } else {
       wx.cloud.init({
         // env 参数说明：
