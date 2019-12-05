@@ -3,7 +3,7 @@ App({
   onLaunch: function () {
     
     if (!wx.cloud) {
-      console.error('请使用 我第三撒大大声道改求大神多啊实')
+      console.error('请使用')
     } else {
       wx.cloud.init({
         // env 参数说明：
