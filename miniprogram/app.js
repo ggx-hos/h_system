@@ -3,7 +3,7 @@ App({
   onLaunch: function () {
     
     if (!wx.cloud) {
-      console.error('1231231231231213321')
+      console.error('测试第一次')
     } else {
       wx.cloud.init({
         // env 参数说明：
