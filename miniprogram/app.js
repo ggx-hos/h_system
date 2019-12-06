@@ -3,7 +3,7 @@ App({
   onLaunch: function () {
     
     if (!wx.cloud) {
-      console.error('测试第一次')
+      console.error('请sad 度更改 或以上的基础库w 以使用云能力')
     } else {
       wx.cloud.init({
         // env 参数说明：
