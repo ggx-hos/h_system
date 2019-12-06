@@ -3,7 +3,7 @@ App({
   onLaunch: function () {
     
     if (!wx.cloud) {
-      console.error('测试能不能用')
+      console.error('测试能sd 不能用')
     } else {
       wx.cloud.init({
         // env 参数说明：
